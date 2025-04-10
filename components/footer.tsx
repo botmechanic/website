@@ -56,9 +56,16 @@ export default function Footer() {
                 <Twitter className="h-4 w-4 text-gray-700" />
                 <span className="sr-only">Twitter</span>
               </Button>
-              <Button variant="outline" size="icon" className="rounded-full border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all">
-                <Github className="h-4 w-4 text-gray-700" />
-                <span className="sr-only">GitHub</span>
+              <Button 
+                variant="outline" 
+                size="icon" 
+                className="rounded-full border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all"
+                asChild
+              >
+                <Link href="https://github.com/algo-traders-club" target="_blank" rel="noopener noreferrer">
+                  <Github className="h-4 w-4 text-gray-700" />
+                  <span className="sr-only">GitHub</span>
+                </Link>
               </Button>
               <Button variant="outline" size="icon" className="rounded-full border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all">
                 <Linkedin className="h-4 w-4 text-gray-700" />

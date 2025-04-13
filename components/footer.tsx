@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="lg:col-span-3">
               <h3 className="text-2xl font-bold mb-2">Stay ahead of the market</h3>
               <p className="text-gray-600">
-                Get the latest algorithmic trading insights and Solana updates delivered to your inbox.
+                Get the latest algorithmic trading insights and Hyperliquid updates delivered to your inbox.
               </p>
             </div>
             <div className="lg:col-span-2">
@@ -48,7 +48,7 @@ export default function Footer() {
               />
             </Link>
             <p className="mt-4 text-gray-600 max-w-md leading-relaxed">
-              The premier destination to learn algorithmic trading on the Solana blockchain. Join our community and
+              The premier destination to learn algorithmic trading on the Hyperliquid blockchain. Join our community and
               master the hottest skill of 2025.
             </p>
             <div className="flex space-x-3 mt-6">

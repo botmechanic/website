@@ -9,9 +9,9 @@ import Footer from '@/components/footer'
 const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Algo Traders Club | Master Algorithmic Trading on Solana',
-  description: 'Learn algorithmic trading on Solana with the #1 community. Deploy autonomous trading agents and master the hottest skill of 2025.',
-  keywords: ['algorithmic trading', 'solana', 'crypto trading', 'trading bots', 'defi', 'liquidity pools'],
+  title: 'Algo Traders Club | Master Algorithmic Trading on Hyperliquid',
+  description: 'Learn algorithmic trading on Hyperliquid with the #1 community. Deploy autonomous trading agents and master the hottest skill of 2025.',
+  keywords: ['algorithmic trading', 'hyperliquid', 'crypto trading', 'trading bots', 'defi', 'liquidity pools'],
   authors: [{ name: 'Algo Traders Club Team' }],
   creator: 'Algo Traders Club',
   icons: {
@@ -28,20 +28,20 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://algotradersclub.com',
-    title: 'Algo Traders Club | Master Algorithmic Trading on Solana',
-    description: 'Learn algorithmic trading on Solana with the #1 community. Deploy autonomous trading agents and master the hottest skill of 2025.',
+    title: 'Algo Traders Club | Master Algorithmic Trading on Hyperliquid',
+    description: 'Learn algorithmic trading on Hyperliquid with the #1 community. Deploy autonomous trading agents and master the hottest skill of 2025.',
     siteName: 'Algo Traders Club',
     images: [{
       url: '/atc-share-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Algo Traders Club - Algorithmic Trading on Solana',
+      alt: 'Algo Traders Club - Algorithmic Trading on Hyperliquid',
     }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Algo Traders Club | Master Algorithmic Trading on Solana',
-    description: 'Learn algorithmic trading on Solana with the #1 community. Deploy autonomous trading agents and master the hottest skill of 2025.',
+    title: 'Algo Traders Club | Master Algorithmic Trading on Hyperliquid',
+    description: 'Learn algorithmic trading on Hyperliquid with the #1 community. Deploy autonomous trading agents and master the hottest skill of 2025.',
     creator: '@algotradersclub',
     images: ['/atc-share-image.jpg'],
   },

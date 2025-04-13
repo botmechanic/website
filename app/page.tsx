@@ -421,41 +421,59 @@ export default function Home() {
               </div>
 
               <div className="mt-16 bg-white rounded-xl p-8 shadow-lg">
-                <h3 className="text-xl font-bold mb-4 text-center">Liquidity Shapes Explained</h3>
+                <h3 className="text-xl font-bold mb-4 text-center">Order Book Warfare Tactics</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  {/* Tight Spread Tactics */}
                   <div className="text-center">
                     <div className="mb-4 h-40 flex items-end justify-center">
-                      <div className="w-8 h-32 bg-[#70DB21] rounded-t-md"></div>
+                      <div className="w-8 h-32 bg-[#70DB21] rounded-t-md animate-pulse"></div>
                     </div>
-                    <h4 className="font-bold">Spot</h4>
+                    <h4 className="font-bold">Laser Spread</h4>
                     <p className="text-sm text-gray-700 mt-2">
-                      Concentrates liquidity in the currently active bin. High capital efficiency but requires frequent
-                      rebalancing.
+                      Park orders ±0.1% from mid-price. Perfect for high-frequency vibe-bots leveraging Hyperliquid's 
+                      <span className="text-[#70DB21] font-semibold"> 200k TPS</span>. 
+                      <span className="block mt-1 text-xs text-gray-500">"The scalper's zen garden"</span>
                     </p>
                   </div>
+
+                  {/* Layered Depth Strategies */}
                   <div className="text-center">
                     <div className="mb-4 h-40 flex items-end justify-center">
                       <div className="w-8 h-8 bg-[#A0E76C] rounded-t-md mx-1"></div>
                       <div className="w-8 h-24 bg-[#70DB21] rounded-t-md mx-1"></div>
-                      <div className="w-8 h-8 bg-[#A0E76C] rounded-t-md mx-1"></div>
+                      <div className="w-8 h-16 bg-[#C0EF9D] rounded-t-md mx-1"></div>
                     </div>
-                    <h4 className="font-bold">Curve</h4>
+                    <h4 className="font-bold">Depth Matrix</h4>
                     <p className="text-sm text-gray-700 mt-2">
-                      Distributes liquidity across several bins around the active price. Less efficient than Spot but
-                      reduces rebalancing frequency.
+                      Stagger orders across 5+ price tiers. Let Hyperliquid's 
+                      <span className="text-[#70DB21] font-semibold"> sub-second finality</span> 
+                      auto-fill as markets move. 
+                      <span className="block mt-1 text-xs text-gray-500">"Set it and vibe"</span>
                     </p>
                   </div>
+
+                  {/* Momentum Zones */}
                   <div className="text-center">
                     <div className="mb-4 h-40 flex items-end justify-center">
-                      <div className="w-8 h-24 bg-[#70DB21] rounded-t-md mx-3"></div>
-                      <div className="w-8 h-24 bg-[#70DB21] rounded-t-md mx-3"></div>
+                      <div className="w-8 h-24 bg-[#70DB21] rounded-t-md mx-3 transform -skew-x-6"></div>
+                      <div className="w-8 h-24 bg-[#70DB21] rounded-t-md mx-3 transform skew-x-6"></div>
                     </div>
-                    <h4 className="font-bold">Bid-Ask</h4>
+                    <h4 className="font-bold">Momentum Traps</h4>
                     <p className="text-sm text-gray-700 mt-2">
-                      Places two liquidity peaks slightly below and above the current price to capture spread
-                      opportunities.
+                      Place asymmetric walls where 
+                      <span className="text-[#70DB21] font-semibold"> 50x leverage</span> 
+                      traders get liquidated. Hyperliquid's transparent book shows exactly where the crowd is over-leveraged.
+                      <span className="block mt-1 text-xs text-gray-500">"Catch falling knives with robot hands"</span>
                     </p>
                   </div>
+                </div>
+
+                {/* Hyperliquid USP Banner */}
+                <div className="mt-8 p-4 bg-[#C0EF9D]/20 rounded-lg text-center">
+                  <p className="text-sm font-medium">
+                    <span className="text-[#70DB21]">Why This Slaps on Hyperliquid:</span> 
+                    Zero gas fees mean you can update orders every 100ms without going bankrupt 🚀
+                  </p>
                 </div>
               </div>
             </div>

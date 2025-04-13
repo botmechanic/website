@@ -44,9 +44,6 @@ export default function Navbar() {
                 alt="Algo Traders Club Logo" 
                 className="h-10 w-auto group-hover:opacity-90 transition-opacity" 
               />
-              <span className="ml-2 bg-gradient-to-r from-[#70DB21] to-[#A0E76C] text-black text-xs px-2 py-1 rounded-full font-medium shadow-sm">
-                SOLANA
-              </span>
             </Link>
           </div>
 

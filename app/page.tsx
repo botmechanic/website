@@ -40,17 +40,23 @@ export default function Home() {
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-[#70DB21] to-[#A0E76C] text-black font-medium text-lg px-8 py-6 h-auto transition-all duration-300 shadow-lg hover:shadow-xl hover:translate-y-[-2px] rounded-xl w-full sm:w-auto"
+                  asChild
                 >
-                  Join Now
-                  <ArrowRight className="ml-2 h-5 w-5" />
+                  <Link href="https://www.skool.com/algo-traders-club-3768" target="_blank" rel="noopener noreferrer">
+                    Join Now
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Link>
                 </Button>
                 
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-gray-300 text-black font-medium text-lg px-8 py-6 h-auto transition-all duration-300 hover:bg-gray-50 rounded-xl w-full sm:w-auto"
+                  asChild
                 >
-                  Learn More
+                  <Link href="https://www.skool.com/algo-traders-club-3768" target="_blank" rel="noopener noreferrer">
+                    Learn More
+                  </Link>
                 </Button>
               </div>
               

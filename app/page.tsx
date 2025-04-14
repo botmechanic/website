@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, BarChart2, Brain, Cpu, Layers, Code, Database } from "lucide-react"
+import { ArrowRight, BarChart2, Brain, Cpu, Layers, Code, Database, Coins, Zap, LineChart } from "lucide-react"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { Card, CardContent } from "@/components/ui/card"
 import Navbar from "@/components/navbar"
@@ -24,16 +24,16 @@ export default function Home() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="inline-block mb-6 px-3 py-1 rounded-full bg-white border border-gray-200 shadow-sm">
                 <span className="text-sm font-medium bg-gradient-to-r from-[#70DB21] to-[#A0E76C] text-transparent bg-clip-text">
-                  Where 200k TPS Meets Trader ESP
+                  The #1 Community for Algo Traders on Solana
                 </span>
               </div>
               
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-black leading-tight">
-                Master <span className="relative">Algorithmic Trading<span className="absolute bottom-2 left-0 w-full h-3 bg-[#70DB21]/20 -z-10 skew-x-3"></span></span> at Light Speed
+                Master <span className="relative">Algo Trading on Solana<span className="absolute bottom-2 left-0 w-full h-3 bg-[#70DB21]/20 -z-10 skew-x-3"></span></span> with the #1 Community
               </h1>
               
               <p className="mt-6 text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto">
-                Harness Hyperliquid L1 - The blockchain built by traders, for traders. Experience CEX speed with DeFi sovereignty.
+                Learn the hottest skill of 2025 at the intersection of Crypto, Web3, and AI on the Solana blockchain.
               </p>
               
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -72,7 +72,7 @@ export default function Home() {
               <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 relative z-0">
                 <div className="flex justify-between items-center mb-6">
                   <div>
-                    <h3 className="font-bold text-lg">HYPER/USDC Spot Bot</h3>
+                    <h3 className="font-bold text-lg">SOL/USDC Spot Bot</h3>
                     <p className="text-gray-500 text-sm">Live On-Chain Performance</p>
                   </div>
                   <div className="flex space-x-2">
@@ -122,10 +122,10 @@ export default function Home() {
                 </span>
               </div>
               <h2 className="text-3xl md:text-5xl font-bold text-black mb-4">
-                Dominate <span className="relative inline-block">Hyperliquid L1<span className="absolute bottom-2 left-0 w-full h-3 bg-[#70DB21]/20 -z-10"></span></span>
+                Unlock the Power of <span className="relative inline-block">Algorithmic Trading<span className="absolute bottom-2 left-0 w-full h-3 bg-[#70DB21]/20 -z-10"></span></span>
               </h2>
               <p className="mt-4 text-xl text-gray-700 max-w-2xl mx-auto">
-                Deploy autonomous trading agents on Hyperliquid L1 and master high-performance trading
+                Deploy autonomous trading agents on Solana's top liquidity pools: Orca, Raydium, and advanced DLMM platforms
               </p>
             </div>
 
@@ -136,25 +136,25 @@ export default function Home() {
                   <div className="mb-6 w-14 h-14 bg-gradient-to-br from-[#70DB21] to-[#A0E76C] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                     <Layers className="h-7 w-7 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold mb-3 group-hover:text-[#70DB21] transition-colors">Spot Trading Foundations</h3>
+                  <h3 className="text-xl font-bold mb-3 group-hover:text-[#70DB21] transition-colors">Liquidity Pool Fundamentals</h3>
                   <div className="text-gray-700 leading-relaxed">
-                    Master Hyperliquid's on-chain order book with:
+                    Master Solana's top liquidity pools with:
                     <Tooltip>
                       <TooltipTrigger asChild>
-                        <span className="font-medium border-b border-dashed border-gray-400 cursor-help text-[#70DB21]"> 1-Click Trading</span>
+                        <span className="font-medium border-b border-dashed border-gray-400 cursor-help text-[#70DB21]"> Dynamic Liquidity</span>
                       </TooltipTrigger>
                       <TooltipContent className="bg-white shadow-xl border border-gray-100 p-3 rounded-lg">
-                        <div className="max-w-xs">Execute trades faster than Ethereum blocks confirm</div>
+                        <div className="max-w-xs">Leverage DLMM features for enhanced capital efficiency</div>
                       </TooltipContent>
                     </Tooltip>
                     {` `}and{` `}
                     <Tooltip>
                       <TooltipTrigger asChild>
-                        <span className="font-medium border-b border-dashed border-gray-400 cursor-help text-[#70DB21]"> Vibe-Coded Agents</span>
+                        <span className="font-medium border-b border-dashed border-gray-400 cursor-help text-[#70DB21]"> Bin-Based Strategies</span>
                       </TooltipTrigger>
                       <TooltipContent className="bg-white shadow-xl border border-gray-100 p-3 rounded-lg">
                         <div className="max-w-xs">
-                          Our intuitive framework makes algo trading feel like writing poetry
+                          Optimize liquidity placement across discrete price bins
                         </div>
                       </TooltipContent>
                     </Tooltip>{" "}
@@ -186,9 +186,9 @@ export default function Home() {
                   <div className="mb-6 w-14 h-14 bg-gradient-to-br from-[#70DB21] to-[#A0E76C] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                     <Code className="h-7 w-7 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold mb-3 group-hover:text-[#70DB21] transition-colors">Zero-Gas Warfare</h3>
+                  <h3 className="text-xl font-bold mb-3 group-hover:text-[#70DB21] transition-colors">Solana Fundamentals</h3>
                   <div className="text-gray-700 leading-relaxed">
-                    Deploy agents that trade 24/7 without gas fee friction:
+                    Deploy agents that trade efficiently on Solana:
                     <ul className="mt-6 space-y-3">
                       <li className="flex items-start">
                         <div className="mr-3 mt-1 w-5 h-5 bg-gradient-to-r from-[#70DB21] to-[#A0E76C] rounded-full flex items-center justify-center">
@@ -196,7 +196,7 @@ export default function Home() {
                             <path d="M5 12L10 17L20 7" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                           </svg>
                         </div>
-                        <span>200k TPS battlefield readiness</span>
+                        <span>Master accounts, transactions, keypairs, and RPC nodes</span>
                       </li>
                       <li className="flex items-start">
                         <div className="mr-3 mt-1 w-5 h-5 bg-gradient-to-r from-[#70DB21] to-[#A0E76C] rounded-full flex items-center justify-center">
@@ -204,7 +204,7 @@ export default function Home() {
                             <path d="M5 12L10 17L20 7" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                           </svg>
                         </div>
-                        <span>Sub-second confirmation finality</span>
+                        <span>SOL & SPL token integration</span>
                       </li>
                       <li className="flex items-start">
                         <div className="mr-3 mt-1 w-5 h-5 bg-gradient-to-r from-[#70DB21] to-[#A0E76C] rounded-full flex items-center justify-center">
@@ -212,7 +212,7 @@ export default function Home() {
                             <path d="M5 12L10 17L20 7" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                           </svg>
                         </div>
-                        <span>50x leverage integration</span>
+                        <span>Priority fee optimization</span>
                       </li>
                     </ul>
                   </div>
@@ -225,20 +225,20 @@ export default function Home() {
                   <div className="mb-6 w-14 h-14 bg-gradient-to-br from-[#70DB21] to-[#A0E76C] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                     <Database className="h-7 w-7 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold mb-3 group-hover:text-[#70DB21] transition-colors">HyperBFT Consensus</h3>
+                  <h3 className="text-xl font-bold mb-3 group-hover:text-[#70DB21] transition-colors">Advanced Trading Strategies</h3>
                   <div className="text-gray-700 leading-relaxed">
                     <ul className="mt-4 space-y-2">
                       <li className="flex items-start">
                         <div className="mr-2 mt-1 w-4 h-4 bg-[#A0E76C] rounded-full"></div>
-                        <span>Built-for-speed L1 architecture</span>
+                        <span>Dynamic fee optimization</span>
                       </li>
                       <li className="flex items-start">
                         <div className="mr-2 mt-1 w-4 h-4 bg-[#A0E76C] rounded-full"></div>
-                        <span>Institutional-grade order matching</span>
+                        <span>Impermanent loss mitigation</span>
                       </li>
                       <li className="flex items-start">
                         <div className="mr-2 mt-1 w-4 h-4 bg-[#A0E76C] rounded-full"></div>
-                        <span>CEX-level UI/UX with DeFi custody</span>
+                        <span>Strategic bin placement for capital efficiency</span>
                       </li>
                     </ul>
                   </div>
@@ -264,26 +264,26 @@ export default function Home() {
                   <BarChart2 className="h-8 w-8 text-black" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-3 text-center md:text-left">Trade Like Wall Street, Settle Like Cypherpunk</h3>
+                  <h3 className="text-xl font-bold mb-3 text-center md:text-left">Dynamic Fees & Impermanent Loss</h3>
                   <p className="text-gray-700">
-                    {`Experience `}
-                    <span className="font-bold text-black border-b-2 border-[#A0E76C]">institutional liquidity</span>
-                    {` with `}
-                    <span className="font-bold text-black border-b-2 border-[#A0E76C]">zero gas fees</span>
-                    {`. Our agents dance through `}
+                    {`Explore `}
+                    <span className="font-bold text-black border-b-2 border-[#A0E76C]">dynamic fee optimization</span>
+                    {` and `}
+                    <span className="font-bold text-black border-b-2 border-[#A0E76C]">impermanent loss mitigation</span>
+                    {`. Our agents leverage `}
                     <Tooltip>
                       <TooltipTrigger asChild>
                         <span className="font-bold text-black border-b-2 border-[#A0E76C] cursor-help">
-                          HyperBFT consensus
+                          Solana's high throughput
                         </span>
                       </TooltipTrigger>
                       <TooltipContent>
                         <div className="max-w-xs">
-                          The secret sauce enabling 200k TPS throughput
+                          Fast transaction processing for efficient trading
                         </div>
                       </TooltipContent>
                     </Tooltip>{" "}
-                    {` like it's Saturday night.`}
+                    {` to maximize your returns.`}
                   </p>
                 </div>
               </div>
@@ -293,11 +293,11 @@ export default function Home() {
                   <Brain className="h-8 w-8 text-black" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-3 text-center md:text-left">Vibe &gt; Code</h3>
+                  <h3 className="text-xl font-bold mb-3 text-center md:text-left">SDK Mastery</h3>
                   <p className="text-gray-700">
                     {`Our `}
-                    <span className="font-bold text-black border-b-2 border-[#A0E76C]">100% vibe-certified</span>
-                    {` framework lets you express trading strategies through intuitive configs - no computer science degree required.`}
+                    <span className="font-bold text-black border-b-2 border-[#A0E76C]">comprehensive SDK guides</span>
+                    {` help you leverage tools from Orca, Raydium, and other Solana protocols to build, manage, and optimize your trading agents.`}
                   </p>
                 </div>
               </div>
@@ -339,9 +339,9 @@ export default function Home() {
         <section id="how" className="bg-gray-50 py-24">
           <div className="container px-4 mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-black">From Vibes to Profit</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-black">Autonomous Trading, Simplified</h2>
               <p className="mt-4 text-xl text-gray-700 max-w-2xl mx-auto">
-                Transform your trading intuition into profitable algorithms
+                Transform your trading strategy into profitable autonomous agents
               </p>
             </div>
 
@@ -352,20 +352,20 @@ export default function Home() {
                     <div className="w-10 h-10 bg-[#70DB21] rounded-full flex items-center justify-center mb-4">
                       <span className="text-black font-bold">1</span>
                     </div>
-                    <h3 className="text-xl font-bold mb-3">Channel Your Energy</h3>
-                    <p className="text-gray-700">Define your trading aura:</p>
+                    <h3 className="text-xl font-bold mb-3">Define Your Triggers</h3>
+                    <p className="text-gray-700">Specify what makes your agent autonomous:</p>
                     <ul className="mt-2 space-y-1">
                       <li className="flex items-start">
                         <div className="mr-2 mt-1 w-3 h-3 bg-[#70DB21] rounded-full"></div>
-                        <span>Limit order intuition</span>
+                        <span>Price-based triggers</span>
                       </li>
                       <li className="flex items-start">
                         <div className="mr-2 mt-1 w-3 h-3 bg-[#70DB21] rounded-full"></div>
-                        <span>Market momentum sensing</span>
+                        <span>Volatility monitoring</span>
                       </li>
                       <li className="flex items-start">
                         <div className="mr-2 mt-1 w-3 h-3 bg-[#70DB21] rounded-full"></div>
-                        <span>Leverage chi flow</span>
+                        <span>Decision parameters</span>
                       </li>
                     </ul>
                   </CardContent>
@@ -376,20 +376,20 @@ export default function Home() {
                     <div className="w-10 h-10 bg-[#70DB21] rounded-full flex items-center justify-center mb-4">
                       <span className="text-black font-bold">2</span>
                     </div>
-                    <h3 className="text-xl font-bold mb-3">Vibe-to-Code Alchemy</h3>
-                    <p className="text-gray-700">Watch our compiler transform your:</p>
+                    <h3 className="text-xl font-bold mb-3">Target Strategic Bins</h3>
+                    <p className="text-gray-700">Optimize your capital efficiency:</p>
                     <ul className="mt-2 space-y-1">
                       <li className="flex items-start">
                         <div className="mr-2 mt-1 w-3 h-3 bg-[#70DB21] rounded-full"></div>
-                        <span>Market feels &rarr; Conditional logic</span>
+                        <span>Target bins around active prices</span>
                       </li>
                       <li className="flex items-start">
                         <div className="mr-2 mt-1 w-3 h-3 bg-[#70DB21] rounded-full"></div>
-                        <span>Risk tolerance &rarr; Position sizing</span>
+                        <span>Claim fees strategically</span>
                       </li>
                       <li className="flex items-start">
                         <div className="mr-2 mt-1 w-3 h-3 bg-[#70DB21] rounded-full"></div>
-                        <span>Alpha dreams &rarr; Live agents</span>
+                        <span>Optimize price ranges</span>
                       </li>
                     </ul>
                   </CardContent>
@@ -421,58 +421,58 @@ export default function Home() {
               </div>
 
               <div className="mt-16 bg-white rounded-xl p-8 shadow-lg">
-                <h3 className="text-xl font-bold mb-4 text-center">Order Book Warfare Tactics</h3>
+                <h3 className="text-xl font-bold mb-4 text-center">Liquidity Shape Strategies</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                  {/* Tight Spread Tactics */}
+                  {/* Spot Strategy */}
                   <div className="text-center">
                     <div className="mb-4 h-40 flex items-end justify-center">
                       <div className="w-8 h-32 bg-[#70DB21] rounded-t-md animate-pulse"></div>
                     </div>
-                    <h4 className="font-bold">Laser Spread</h4>
+                    <h4 className="font-bold">Spot Strategy</h4>
                     <p className="text-sm text-gray-700 mt-2">
-                      Park orders ±0.1% from mid-price. Perfect for high-frequency vibe-bots leveraging Hyperliquid's 
-                      <span className="text-[#70DB21] font-semibold"> 200k TPS</span>. 
-                      <span className="block mt-1 text-xs text-gray-500">"The scalper's zen garden"</span>
+                      Concentrate liquidity in the currently active bin. Offers high capital efficiency while leveraging Solana's 
+                      <span className="text-[#70DB21] font-semibold"> fast finality</span>. 
+                      <span className="block mt-1 text-xs text-gray-500">"Maximum efficiency, frequent rebalancing"</span>
                     </p>
                   </div>
 
-                  {/* Layered Depth Strategies */}
+                  {/* Curve Strategy */}
                   <div className="text-center">
                     <div className="mb-4 h-40 flex items-end justify-center">
                       <div className="w-8 h-8 bg-[#A0E76C] rounded-t-md mx-1"></div>
                       <div className="w-8 h-24 bg-[#70DB21] rounded-t-md mx-1"></div>
                       <div className="w-8 h-16 bg-[#C0EF9D] rounded-t-md mx-1"></div>
                     </div>
-                    <h4 className="font-bold">Depth Matrix</h4>
+                    <h4 className="font-bold">Curve Strategy</h4>
                     <p className="text-sm text-gray-700 mt-2">
-                      Stagger orders across 5+ price tiers. Let Hyperliquid's 
-                      <span className="text-[#70DB21] font-semibold"> sub-second finality</span> 
-                      auto-fill as markets move. 
-                      <span className="block mt-1 text-xs text-gray-500">"Set it and vibe"</span>
+                      Distribute liquidity across several bins around the active price for a smoother spread. Utilize Solana's 
+                      <span className="text-[#70DB21] font-semibold"> DLMM features</span> 
+                      for enhanced flexibility. 
+                      <span className="block mt-1 text-xs text-gray-500">"Balance efficiency and stability"</span>
                     </p>
                   </div>
 
-                  {/* Momentum Zones */}
+                  {/* Bid-Ask Strategy */}
                   <div className="text-center">
                     <div className="mb-4 h-40 flex items-end justify-center">
                       <div className="w-8 h-24 bg-[#70DB21] rounded-t-md mx-3 transform -skew-x-6"></div>
                       <div className="w-8 h-24 bg-[#70DB21] rounded-t-md mx-3 transform skew-x-6"></div>
                     </div>
-                    <h4 className="font-bold">Momentum Traps</h4>
+                    <h4 className="font-bold">Bid-Ask Strategy</h4>
                     <p className="text-sm text-gray-700 mt-2">
-                      Place asymmetric walls where 
-                      <span className="text-[#70DB21] font-semibold"> 50x leverage</span> 
-                      traders get liquidated. Hyperliquid's transparent book shows exactly where the crowd is over-leveraged.
-                      <span className="block mt-1 text-xs text-gray-500">"Catch falling knives with robot hands"</span>
+                      Place two liquidity peaks slightly below and above the current price to capture 
+                      <span className="text-[#70DB21] font-semibold"> spread opportunities</span>. 
+                      Solana's speed enables quick adjustments as markets move.
+                      <span className="block mt-1 text-xs text-gray-500">"Advanced strategy for spread capture"</span>
                     </p>
                   </div>
                 </div>
 
-                {/* Hyperliquid USP Banner */}
+                {/* Solana USP Banner */}
                 <div className="mt-8 p-4 bg-[#C0EF9D]/20 rounded-lg text-center">
                   <p className="text-sm font-medium">
-                    <span className="text-[#70DB21]">Why This Slaps on Hyperliquid:</span> 
-                    Zero gas fees mean you can update orders every 100ms without going bankrupt 🚀
+                    <span className="text-[#70DB21]">Why This Works on Solana:</span> 
+                    Fast transaction processing and low fees enable efficient strategy execution and capital optimization 🚀
                   </p>
                 </div>
               </div>
@@ -483,11 +483,11 @@ export default function Home() {
         {/* CTA Section */}
         <section className="bg-black py-24">
           <div className="container px-4 mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Vibe Trade?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Trade Smarter?</h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-10">
-              {`Join the first community where `}
-              <span className="text-[#70DB21]">algo trading meets blockchain performance</span>
-              {` - no compromises, no gas fees.`}
+              {`Join the #1 community for algorithmic traders on `}
+              <span className="text-[#70DB21]">Solana</span>
+              {` - master the hottest skill of 2025.`}
             </p>
             <Button
               size="lg"
@@ -495,7 +495,7 @@ export default function Home() {
               asChild
             >
               <Link href="https://www.skool.com/algo-traders-club-3768" target="_blank" rel="noopener noreferrer">
-                Start Vibe-Coding Free
+                Join Algo Traders Club Now
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
